@@ -1,0 +1,161 @@
+@import 'variables';
+
+.navbar {
+  height: 60px;
+  padding: 1rem 0;
+  margin: 0;
+  border-bottom: 1px solid #ddd;
+}
+.navbar__list {
+  float: right;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.navbar__list-item {
+  display: inline;
+  line-height: 60px;
+  margin: 0 10px;
+  font-family: 'RoboConBold';
+  font-size: 1.8rem;
+}
+.navbar__list-item:last-child {
+  margin-right: 10px;
+}
+.logo_img {
+  height: 50px;
+}
+.home_header {
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  background: image-url('computer.png') center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  clear:both;
+}
+.home_header__headline {
+  color: #fff;
+  font-size: 5.5rem;
+  font-family: 'RoboConBold';
+  margin: 0 0 50px 0;
+  text-align: center;
+  letter-spacing: 1px;
+}
+.home_header__text {
+  text-align: center;
+  font-family: 'RoboConRegular';
+  font-size: 1.8rem;
+  line-height: 1;
+  margin-bottom: 20px;
+}
+.home_header__get-started-btn {
+  background: $primary_color;
+  color: #fff;
+  padding: 15px 25px;
+  border-radius: 2px;
+  text-decoration: none;
+  border-width: 3px;
+  border-style: solid;
+  border-color: $primary_color;
+  -webkit-transition: all 0.5s; /* Safari */
+  transition: all 0.5s;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-decoration: none !important;
+}
+.home_header__get-started-btn:hover, .home_header__get-started-btn:focus {
+  background: $primary_alt;
+  color: #fff;
+  border-color: $primary_alt;
+  text-decoration: none !important;
+}
+.tech_icon {
+  height: 100px;
+}
+.next_step {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+}
+.next_step__header {
+  font-family: 'RoboConBold';
+  font-size: 4.0rem;
+  text-align: center;
+  margin: 0 0 10px 0;
+  text-align: center;
+}
+.next_step__sub {
+  text-align: center;
+  font-family: 'RoboConLight';
+  font-size: 1.8rem;
+  color: #222;
+  margin: 0 0 30px 0;
+  // width: 500px;
+}
+.info_form {
+  width: 100%;
+}
+.info_form__input {
+  display: block;
+  font-family: 'RoboConLight';
+  width: 100%;
+  padding: 1.3rem;
+  font-size: 1.8rem;
+  margin: 0 0 10px 0;
+  outline: none;
+}
+.info_form__input:focus {
+  display: block;
+  font-family: 'RoboConLight';
+  width: 100%;
+  padding: 1.3rem;
+  font-size: 1.8rem;
+  margin: 0 0 10px 0;
+  outline: none;
+}
+.info_form__textarea {
+  display: block;
+  font-family: 'RoboConLight';
+  width: 100%;
+  padding: 1.3rem;
+  font-size: 1.8rem;
+  margin: 0 0 10px 0;
+  outline: none;
+  resize: none;
+  border-color: #ccc;
+}
+.info_form__button {
+  background: $primary_color;
+  color: #fff;
+  padding: 15px 25px;
+  border-radius: 2px;
+  text-decoration: none;
+  border-width: 3px;
+  border-style: solid;
+  border-color: $primary_color;
+  -webkit-transition: all 0.5s; /* Safari */
+  transition: all 0.5s;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.info_form__button:hover, .info_form__button:focus {
+  background: $primary_alt;
+  color: #fff;
+  border-color: $primary_alt;
+  outline: 0;
+}
+
+.next_step_container {
+  width: 900px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 2rem;
+  padding-left: 2rem;
+}

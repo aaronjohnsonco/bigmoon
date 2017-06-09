@@ -1,0 +1,45 @@
+// Place all the styles related to the pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+input, button, select {
+  font-size: 1.3rem;
+}
+
+@font-face {
+  font-family: 'RoboConBold';
+  src: font_url('RobotoCondensed-Bold.ttf');
+}
+@font-face {
+  font-family: 'RoboConRegular';
+  src: font_url('RobotoCondensed-Regular.ttf');
+}
+@font-face {
+  font-family: 'RoboConLight';
+  src: font_url('RobotoCondensed-Light.ttf');
+}
+@font-face {
+  font-family: 'RoboRegular';
+  src: font_url('Roboto-Regular.ttf');
+}
+
+@import 'home';
+@import 'footer';
+@import 'about';
+@import 'work';
