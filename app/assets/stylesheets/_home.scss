@@ -110,6 +110,8 @@
   font-size: 1.8rem;
   margin: 0 0 10px 0;
   outline: none;
+  border: none;
+  background: #eee;
 }
 .info_form__input:focus {
   display: block;
@@ -129,7 +131,8 @@
   margin: 0 0 10px 0;
   outline: none;
   resize: none;
-  border-color: #ccc;
+  border: none;
+  background: #eee;
 }
 .info_form__button {
   background: $primary_color;
