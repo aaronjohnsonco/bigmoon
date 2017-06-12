@@ -14,6 +14,8 @@ footer {
   font-family: $font_regular;
   font-size: 1.6rem;
   color: #bbb;
+  margin: 0;
+  padding:0;
 }
 /* Custom, iPhone Retina */
 @media only screen and (min-width : 320px) {
