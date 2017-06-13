@@ -4612,6 +4612,68 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 
 
+
+
+.navbar-orange {
+  background-color: #FE6329;
+  border-color: #FE6329;
+}
+.navbar-orange .navbar-brand {
+  color: #777;
+}
+.navbar-orange .navbar-brand:hover,
+.navbar-orange .navbar-brand:focus {
+  color: #5e5e5e;
+  background-color: transparent;
+}
+.navbar-orange .navbar-text {
+  color: #777;
+}
+.navbar-orange .navbar-nav > li > a {
+  color: #fff;
+  font-family: 'RoboConRegular';
+  font-size: 1.8rem;
+  line-height: 1;
+}
+.navbar-orange .navbar-nav > li > a:hover,
+.navbar-orange .navbar-nav > li > a:focus {
+  color: #fff;
+  background-color: transparent;
+}
+.navbar-orange .navbar-nav > .active > a,
+.navbar-orange .navbar-nav > .active > a:hover,
+.navbar-orange .navbar-nav > .active > a:focus {
+  color: #fff;
+  background-color: transparent;
+}
+.navbar-orange .navbar-nav > .disabled > a,
+.navbar-orange .navbar-nav > .disabled > a:hover,
+.navbar-orange .navbar-nav > .disabled > a:focus {
+  color: #ccc;
+  background-color: transparent;
+}
+.navbar-orange .navbar-toggle {
+  border-color: #ddd;
+}
+.navbar-orange .navbar-toggle:hover,
+.navbar-orange .navbar-toggle:focus {
+  background-color: #ddd;
+}
+.navbar-orange .navbar-toggle .icon-bar {
+  background-color: #888;
+}
+.navbar-orange .navbar-collapse,
+.navbar-orange .navbar-form {
+  border-color: #e7e7e7;
+}
+.navbar-orange .navbar-nav > .open > a,
+.navbar-orange .navbar-nav > .open > a:hover,
+.navbar-orange .navbar-nav > .open > a:focus {
+  color: #555;
+  background-color: #e7e7e7;
+}
+
+
 @media (max-width: 767px) {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
     color: #777;
