@@ -4637,13 +4637,13 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-orange .navbar-nav > li > a:hover,
 .navbar-orange .navbar-nav > li > a:focus {
-  color: #fff;
+  color: #222;
   background-color: transparent;
 }
 .navbar-orange .navbar-nav > .active > a,
 .navbar-orange .navbar-nav > .active > a:hover,
 .navbar-orange .navbar-nav > .active > a:focus {
-  color: #fff;
+  color: #222;
   background-color: transparent;
 }
 .navbar-orange .navbar-nav > .disabled > a,
