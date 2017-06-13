@@ -6,7 +6,17 @@
     <div class="about">
       <div class="row">
         <div class="col-md-12">
-          <h1 class="about__header">Web & App Development</h1>
+          <h1 class="about__header">We are Big Moon!</h1>
+          <div class="about__img-container">
+            <div class="about_img-box">
+              <%= image_tag 'aaron.png', class: 'about__img' %>
+              <p class="about__img-info"><span class="info-name">Aaron Johnson</span><br/><span class="info-title">Founder, Development & Design</span></p>
+            </div>
+            <div class="about_img-box">
+              <%= image_tag 'dustin.png', class: 'about__img' %>
+              <p class="about__img-info"><span class="info-name">Dustin Smith</span><br/><span class="info-title">Development & Design</div></p>
+            </div>
+          </div>
           <h2 class="about__subheader">We enjoy using these technologies:</h2>
           <div class="row">
             <div class="col-md-offset-2 col-md-8">
@@ -14,7 +24,8 @@
                 <%= image_tag 'wordpress.svg', class: 'tech__img' %>
                 <%= image_tag 'rails.svg', class: 'tech__img' %>
                 <%= image_tag 'html5.png', class: 'tech__img' %>
-                <%= image_tag 'react.svg', class: 'tech__img-spin' %>
+                <!-- tech__img-spin for rotating icon -->
+                <%= image_tag 'react.svg', class: 'tech__img' %>
                 <%= image_tag 'meteor.svg', class: 'tech__img' %>
                 <!-- <%= image_tag 'node.svg', class: 'tech__img' %> -->
               </div>
