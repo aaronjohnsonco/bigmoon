@@ -4512,33 +4512,34 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   font-family: 'RoboConRegular';
   font-size: 1.8rem;
   line-height: 1;
+  background: #fff;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
   color: #FE6329;
-  background-color: transparent;
+  background-color: #fff;
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
   color: #FE6329;
-  background-color: transparent;
+  background-color: #fff;
 }
 .navbar-default .navbar-nav > .disabled > a,
 .navbar-default .navbar-nav > .disabled > a:hover,
 .navbar-default .navbar-nav > .disabled > a:focus {
   color: #ccc;
-  background-color: transparent;
+  background-color: #fff;
 }
 .navbar-default .navbar-toggle {
-  border-color: #ddd;
+  border-color: #222;
 }
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-  background-color: #ddd;
+  background-color: #fff;
 }
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: #888;
+  background-color: #222;
 }
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
@@ -4551,6 +4552,9 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   background-color: #e7e7e7;
 }
 
+.navbar {
+  z-index: 9999;
+}
 
 .navbar-dark {
   background-color: #222;
@@ -4572,11 +4576,12 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   font-family: 'RoboConRegular';
   font-size: 1.8rem;
   line-height: 1;
+  background: #222;
 }
 .navbar-dark .navbar-nav > li > a:hover,
 .navbar-dark .navbar-nav > li > a:focus {
   color: #FE6329;
-  background-color: transparent;
+  background-color: #222;
 }
 .navbar-dark .navbar-nav > .active > a,
 .navbar-dark .navbar-nav > .active > a:hover,
@@ -4591,24 +4596,24 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   background-color: transparent;
 }
 .navbar-dark .navbar-toggle {
-  border-color: #ddd;
+  border-color: #fff;
 }
 .navbar-dark .navbar-toggle:hover,
 .navbar-dark .navbar-toggle:focus {
-  background-color: #ddd;
+  background-color: transparent;
 }
 .navbar-dark .navbar-toggle .icon-bar {
-  background-color: #888;
+  background-color: #fff;
 }
 .navbar-dark .navbar-collapse,
 .navbar-dark .navbar-form {
-  border-color: #e7e7e7;
+  border-color: #222;
 }
 .navbar-dark .navbar-nav > .open > a,
 .navbar-dark .navbar-nav > .open > a:hover,
 .navbar-dark .navbar-nav > .open > a:focus {
   color: #555;
-  background-color: #e7e7e7;
+  background-color: #222;
 }
 
 
