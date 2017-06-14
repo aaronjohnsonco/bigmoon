@@ -3,6 +3,7 @@ class PagesController < ApplicationController
   end
 
   def next_step
+    @contact = Contact.new
   end
 
   def about
@@ -11,6 +12,7 @@ class PagesController < ApplicationController
   def work
   end
 
-  def contact
+  def message
+    @contact = Contact.new
   end
 end
