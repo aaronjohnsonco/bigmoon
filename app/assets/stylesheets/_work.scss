@@ -134,7 +134,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
   }
   .iphone__content {
     margin: 40px 0;
@@ -144,11 +144,23 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 50px;
-    padding-bottom: 50px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
     padding-top: 50px;
     border-bottom: 1px solid #ddd;
     border-top: 1px solid #ddd;
+  }
+  .web__img {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+  .web__content {
+    margin: 0;
+  }
+  .web__title {
+    font-family: $font_light;
+    font-size: 3.5rem;
+    margin: 0;
   }
 }
 
