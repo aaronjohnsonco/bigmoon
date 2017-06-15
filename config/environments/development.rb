@@ -59,7 +59,7 @@ Rails.application.configure do
     :address => "smtp.mailgun.org",
     :port => 587,
     :domain => "bigmoondev.mailgun.org",
-    :user_name => "postmaster@bigmoondev.mailgun.org",
+    :user_name => "postmaster@bigmoondev.com",
     :password => "bd51c17e801d7defa231b816751df026"
 }
 
