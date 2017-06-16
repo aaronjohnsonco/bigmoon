@@ -11,7 +11,7 @@ class ContactsController < ApplicationController
       redirect_to root_path
       flash[:notice] = "Your email did not go through, please try again."
     end
-    
+
     # if @contact.save
     #   ContactMailer.new_submission_email(@contact).deliver
     #   ContactMailer.thank_you_email(@contact).deliver
