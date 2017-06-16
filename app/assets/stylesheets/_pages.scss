@@ -1,7 +1,7 @@
 // Place all the styles related to the pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-
+@import 'variables';
 
 
 * {
@@ -16,6 +16,7 @@ html {
 
 body {
   font-size: 1.6rem;
+  position: relative;
 }
 
 input, button, select {
@@ -37,6 +38,21 @@ input, button, select {
 @font-face {
   font-family: 'RoboRegular';
   src: font_url('Roboto-Regular.ttf');
+}
+#notice_wrapper {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 12000;
+  background: rgba(254,99,41,0.9);
+}
+.notice {
+  padding: 2.5rem 0;
+  text-align: center;
+  color: $white;
+  font-family: $font_bold;
+  font-size: 1.8rem;
+  letter-spacing: 1px;
 }
 
 @import 'home';
