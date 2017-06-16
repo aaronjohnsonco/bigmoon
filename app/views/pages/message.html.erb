@@ -18,6 +18,9 @@
             <%= f.text_field :email, class: 'info_form__input', placeholder: 'Email' %>
             <%= f.text_field :phone, class: 'info_form__input', placeholder: 'Phone' %>
             <%= f.text_area :message, class: 'info_form__textarea', placeholder: 'Tell us about your project' %>
+            <div class="recaptcha">
+              <%= recaptcha_tags %>
+            </div>
             <%= f.submit 'Send Message', class: 'info_form__button' %>
           <% end %>
         </div>
