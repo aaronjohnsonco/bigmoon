@@ -56,6 +56,8 @@ gem 'dotenv-rails', :require => 'dotenv/rails-now'
 
 gem 'recaptcha', require: 'recaptcha/rails'
 
+gem 'certified'
+
 gem 'rails_12factor', group: :production
 gem 'pg', group: :production
 
