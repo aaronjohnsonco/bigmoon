@@ -58,6 +58,8 @@ gem 'recaptcha', require: 'recaptcha/rails'
 
 gem 'certified'
 
+gem 'figaro'
+
 gem 'rails_12factor', group: :production
 gem 'pg', group: :production
 
